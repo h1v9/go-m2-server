@@ -16,6 +16,16 @@ Protocol has been adapted to TMP4 version. Packet sequence has to be disabled
 Game protocol has been reimplemented thoroughly, original Diffie-Hellman is supported.
 Normally the game chooses a random algorithm to encrypt the game packets. Currently only AES is supported.
 
+## Building
+
+1. Install go
+2. Run `go mod install`
+3. Run `build.bat build-all` (Windows) / Run `go build` on other OSes
+
+## Running
+
+Just run the executable once compiled. Auth will be listening on port `23070`, Game on port `23000`
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](LICENSE) file for details.
