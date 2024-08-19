@@ -10,7 +10,7 @@ Currently it only allows to join the game and walk around. No syncronization is 
 
 This project has been built to not require (almost) any modification to the game client.
 
-Protocol has been adapted to TMP4 version.
+Protocol has been adapted to TMP4 version. Packet sequence has to be disabled
 
 ### Encryption
 Game protocol has been reimplemented thoroughly, original Diffie-Hellman is supported.
